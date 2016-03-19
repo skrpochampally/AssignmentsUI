@@ -1,0 +1,24 @@
+.table1 {
+	border:1px; 
+	background-color:#778899;
+	height:35%;
+	width:100%;
+}
+label{
+	font-size: 20px;
+}
+
+body{
+	background-image:url('car.jpg');
+}
+
+.signup	{
+		background-color: #003264;
+	}
+.signupTable {
+	padding:5px;
+	text-align:center;
+	border:1px; 
+	background-color:gray;
+	height:70%;
+}
