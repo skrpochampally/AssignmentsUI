@@ -1,0 +1,13 @@
+
+
+table, th, td
+{
+   border: 1px solid black;
+}
+#first {
+	background-color: orange;
+}
+img {
+	height: 128px;
+	width: 128px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assignment3.css">
+        <title></title>
+    </head>
+<body>
+<table>
+<tr>
+  <th>Form Below</th>
+  <th>Image and list</th>
+
+</tr>
+<tr>
+  <td>
+  
+    <form>
+            <div>
+                <label for="fname" >First Name</label>
+                <input id ="fname" class="name" />
+            </div>
+
+            <div>
+                <label for="lname">Last Name</label>
+                <input id ="lname" class="name" />
+            </div>
+
+        <textarea rows="8" cols="25"placeholder="lets put something as value"></textarea>
+        
+        <h3>Please select your gender</h3>
+        
+        <div>
+        <label for="male">Male:</label>
+        <input id="male" type="radio" name="gender" />
+        </div>
+
+        <div>
+        <label for="female">Female:</label>
+        <input id="female" type="radio" name="gender"/>
+        </div>
+
+        <div>
+        <label for="other">Other:</label>
+        <input id="other" type="radio" name="gender"  />
+        </div>
+
+        <fieldset>
+            <legend>
+            Lemme group your person preferences seperately
+            </legend>
+            <h3>
+            I want to know your hobbies
+            </h3>
+            <label for="travelling">Travelling</label>
+            <input type ="checkbox" id="travelling"/>
+            <label for="partying">Partying</label>
+           <input type ="checkbox" id="partying"/>
+            <label for="reading">Reading</label>
+            <input type ="checkbox" id="reading"/>
+            
+            <h3> Lets Know your current expression </h3>
+            
+            <select>
+            <option value="smile">Smile</option>
+            <option value="angry">Angry</option>
+            </select>
+        </fieldset>
+        
+        <button>mySubmit</button>
+    
+    </form>
+  </td>
+  <td>
+    <img src="car.jpg">
+    <p id="first">
+    see the articlelist of languages and frameworks as their sub categories.</p>
+    <p>Frameworks also have categories</p>
+    <ul>
+        <li>PHP
+            <ul>
+                <li>YII Framework</li>
+            </ul>
+        </li>
+        <li>Javascript
+            <ul>
+                <li>AngularJS</li>
+                <li>BackboneJS
+                    <ul>
+                        <li>Marionettejs</li>
+                        <li>Thorax</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Python
+            <ul>
+                <li>Django</li>
+            </ul>
+        </li>
+    </ul>
+    </td>
+    
+
+</tr>
+
+</table>
+</body>
+</html>

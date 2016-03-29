@@ -1,0 +1,36 @@
+<html>
+  <head>
+		  <link rel="stylesheet" type="text/css" href="assignment5.css">
+  </head>
+    <body>
+
+      <h5>Video Assignment</h5>
+	  
+       <video id="demo">
+         <source src="video.mp4" type="video/mp4">
+       </video>
+
+        <footer>
+         
+          <nav>
+           <button onclick="playVideo()">Play</button>
+           <button onclick="pauseVideo()">Pause</button>
+           <button onclick="skipVideo(-10)">Back</button>
+           <button onclick="skipVideo(10)">Forward</button>
+           <button onclick="replayVideo()">Replay</button>
+           <button onclick="mute()">Mute</button>
+           <input type="range" onclick="volume()"></input>
+          </nav>
+          
+          <div>
+            <label>No of seconds.</label>
+            <input  type="text" ></input>
+            <button>Back</button>
+            <button >Forward</button>
+          </div>
+        
+        
+        </footer>
+    <script type="text/javascript" src="video.js"></script>
+    </body>
+</html>
